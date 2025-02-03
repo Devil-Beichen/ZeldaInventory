@@ -16,6 +16,7 @@ local M = UnLua.Class()
 -- end
 
 function M:ReceiveBeginPlay()
+    self.Overridden.ReceiveBeginPlay(self)
     print("你好")
 end
 
